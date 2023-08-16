@@ -1,0 +1,17 @@
+{
+	"name": "pipelineproject",
+	"properties": {
+		"globalParameters": {
+			"param_total_amount": {
+				"type": "int",
+				"value": 10000
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "59d73529-97ef-42b3-9715-376de12c3133",
+		"tenantId": "cd6683a6-aa85-46cf-aeea-92d4a1477009"
+	}
+}
